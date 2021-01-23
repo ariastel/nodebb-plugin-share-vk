@@ -2,7 +2,7 @@
   "id": "nodebb-plugin-share-vk",
   "name": "NodeBB Vkontakte Share",
   "description": "NodeBB Plugin that allows users to share post via their Vkontakte page.",
-  "url": "https://github.com/iiiyx/nodebb-plugin-share-vk",
+  "url": "https://github.com/ariastel/nodebb-plugin-share-vk",
   "library": "./library.js",
   "scripts": [
       "public/src/client.js"

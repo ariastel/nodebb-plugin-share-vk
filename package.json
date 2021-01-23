@@ -1,12 +1,9 @@
 {
-  "name": "nodebb-plugin-share-vk",
-  "version": "3.0.3",
+  "name": "@ariastel/nodebb-plugin-share-vk",
+  "version": "1.0.0",
   "description": "NodeBB Vkontakte Share",
   "main": "library.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/iiiyx/nodebb-plugin-share-vk"
-  },
+  "repository": "git://github.com/ariastel/nodebb-plugin-share-vk.git",
   "keywords": [
     "nodebb",
     "plugin",
@@ -17,27 +14,21 @@
     "name": "Oleg Sobolev",
     "email": "iiiyxep@list.ru"
   },
+  "contributors": [
+    "Ariastel Team <ariastel@iamantosik.me> (https://github.com/ariastel)"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iiiyx/nodebb-plugin-share-vk/issues"
+    "url": "https://github.com/ariastel/nodebb-plugin-share-vk/issues"
   },
   "readme": "# NodeBB VKontakte Share\n\nNodeBB Plugin that allows users to share posts via their Vkontakte account.\n",
   "readmeFilename": "README.md",
   "dependencies": {},
   "nbbpm": {
-    "compatibility": "^1.0.0 || ^1.16.1"
+    "compatibility": "^1.16.x"
   },
-  "homepage": "https://github.com/iiiyx/nodebb-plugin-share-vk",
-  "maintainers": [
-    {
-      "name": "iiiyx",
-      "email": "iiiyxep@list.ru"
-    }
-  ],
-  "_id": "nodebb-plugin-share-vk@0.0.0",
-  "dist": {
-    "shasum": "???"
-  },
-  "_from": "nodebb-plugin-share-vk@",
-  "_resolved": "https://registry.npmjs.org/nodebb-plugin-share-vk/-/nodebb-plugin-share-vk-0.0.0.tgz"
+  "homepage": "https://github.com/ariastel/nodebb-plugin-share-vk",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }

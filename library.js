@@ -7,7 +7,7 @@ VkShare.addNetwork = function (networks, cb) {
 
   networks.push({
     id: "vkontakte",
-    name: "Vkontakte",
+    name: "ВКонтакте",
     class: "fa-vk"
   });
 
