@@ -9,5 +9,6 @@
   ],
   "hooks": [
     { "hook": "filter:social.posts", "method": "addNetwork" }
-  ]
+  ],
+  "languages": "languages"
 }

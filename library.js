@@ -1,19 +1,14 @@
 'use strict';
 
+const VkSharePlugin = {};
 
-var VkShare = {};
-
-VkShare.addNetwork = function (networks, cb) {
-
+VkSharePlugin.addNetwork = async function (networks) {
   networks.push({
     id: "vkontakte",
-    name: "ВКонтакте",
+    name: "[[share-vk:vk]]",
     class: "fa-vk"
   });
-
-  if (cb && typeof cb === 'function') {
-    cb(null, networks);
-  }
+  return networks;
 };
 
-module.exports = VkShare;
+module.exports = VkSharePlugin;
